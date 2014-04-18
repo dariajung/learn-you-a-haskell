@@ -1,5 +1,4 @@
 import Collatz
 
 numLongChains :: Int
-numLongChains = length (filter isLong (map collatz [1..100]))
-    where isLong xs = length xs > 15
+numLongChains = length (filter (\xs -> length xs > 15) (map collatz [1..100]))
