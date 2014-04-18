@@ -1,3 +1,4 @@
+module Collatz where
 collatz :: (Integral a) => a -> [a]
 collatz 1   = [1]
 collatz n
