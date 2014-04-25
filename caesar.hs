@@ -1,3 +1,5 @@
+module Caesar where
+
 import Data.Char (ord, chr)
 
 caesar :: Int -> String -> String
